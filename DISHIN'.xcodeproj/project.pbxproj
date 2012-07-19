@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FBDCF0815B733AF009E7605 /* No Hands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FBDCF0415B733AF009E7605 /* No Hands.mp3 */; };
+		3FBDCF0915B733AF009E7605 /* Fuck Bitches, Get Money.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FBDCF0515B733AF009E7605 /* Fuck Bitches, Get Money.mp3 */; };
+		3FBDCF0A15B733AF009E7605 /* Make It Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FBDCF0615B733AF009E7605 /* Make It Rain.mp3 */; };
+		3FBDCF0B15B733AF009E7605 /* I Get Money Quality.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3FBDCF0715B733AF009E7605 /* I Get Money Quality.mp3 */; };
+		3FBDCF0E15B73B27009E7605 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDCF0D15B73B27009E7605 /* AVFoundation.framework */; };
 		3FE8897215B5AE3500972525 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE8897115B5AE3500972525 /* UIKit.framework */; };
 		3FE8897415B5AE3500972525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE8897315B5AE3500972525 /* Foundation.framework */; };
 		3FE8897615B5AE3500972525 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE8897515B5AE3500972525 /* CoreGraphics.framework */; };
@@ -20,6 +25,12 @@
 		3FE8899215B5AE3500972525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE8897315B5AE3500972525 /* Foundation.framework */; };
 		3FE8899A15B5AE3500972525 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FE8899815B5AE3500972525 /* InfoPlist.strings */; };
 		3FE8899D15B5AE3500972525 /* DISHIN_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8899C15B5AE3500972525 /* DISHIN_Tests.m */; };
+		3FE88AA315B6103700972525 /* 100 dollar bill.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE88AA215B6103700972525 /* 100 dollar bill.jpeg */; };
+		3FE88AA515B6104400972525 /* 1 dollar bill.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE88AA415B6104400972525 /* 1 dollar bill.jpeg */; };
+		3FE88AA815B6ECB600972525 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE88AA715B6ECB600972525 /* Game.m */; };
+		3FE88AB215B6F8A300972525 /* 50 dollar bill.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE88AB115B6F8A300972525 /* 50 dollar bill.jpeg */; };
+		3FE88ABF15B70FDC00972525 /* Tracks.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE88ABE15B70FDC00972525 /* Tracks.m */; };
+		3FE88AC315B712F300972525 /* stack of money.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE88AC215B712F300972525 /* stack of money.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +44,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FBDCF0415B733AF009E7605 /* No Hands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "No Hands.mp3"; sourceTree = "<group>"; };
+		3FBDCF0515B733AF009E7605 /* Fuck Bitches, Get Money.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fuck Bitches, Get Money.mp3"; sourceTree = "<group>"; };
+		3FBDCF0615B733AF009E7605 /* Make It Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Make It Rain.mp3"; sourceTree = "<group>"; };
+		3FBDCF0715B733AF009E7605 /* I Get Money Quality.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Get Money Quality.mp3"; sourceTree = "<group>"; };
+		3FBDCF0D15B73B27009E7605 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3FE8896D15B5AE3500972525 /* DISHIN'.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DISHIN'.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE8897115B5AE3500972525 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3FE8897315B5AE3500972525 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3FE8897515B5AE3500972525 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3FE8897915B5AE3500972525 /* DISHIN'-Info.plist */ = {isa = PBXFileReference; path = "DISHIN'-Info.plist"; sourceTree = "<group>"; };
+		3FE8897915B5AE3500972525 /* DISHIN'-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DISHIN'-Info.plist"; sourceTree = "<group>"; };
 		3FE8897B15B5AE3500972525 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FE8897D15B5AE3500972525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3FE8897F15B5AE3500972525 /* DISHIN'-Prefix.pch */ = {isa = PBXFileReference; path = "DISHIN'-Prefix.pch"; sourceTree = "<group>"; };
-		3FE8898015B5AE3500972525 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FE8897F15B5AE3500972525 /* DISHIN'-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DISHIN'-Prefix.pch"; sourceTree = "<group>"; };
+		3FE8898015B5AE3500972525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FE8898115B5AE3500972525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3FE8898415B5AE3500972525 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3FE8898615B5AE3500972525 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3FE8898615B5AE3500972525 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3FE8898715B5AE3500972525 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3FE8898E15B5AE3500972525 /* DISHIN'Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DISHIN'Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE8898F15B5AE3500972525 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3FE8899715B5AE3500972525 /* DISHIN'Tests-Info.plist */ = {isa = PBXFileReference; path = "DISHIN'Tests-Info.plist"; sourceTree = "<group>"; };
+		3FE8899715B5AE3500972525 /* DISHIN'Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DISHIN'Tests-Info.plist"; sourceTree = "<group>"; };
 		3FE8899915B5AE3500972525 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3FE8899B15B5AE3500972525 /* DISHIN_Tests.h */ = {isa = PBXFileReference; path = DISHIN_Tests.h; sourceTree = "<group>"; };
+		3FE8899B15B5AE3500972525 /* DISHIN_Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DISHIN_Tests.h; sourceTree = "<group>"; };
 		3FE8899C15B5AE3500972525 /* DISHIN_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DISHIN_Tests.m; sourceTree = "<group>"; };
+		3FE88AA215B6103700972525 /* 100 dollar bill.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "100 dollar bill.jpeg"; sourceTree = "<group>"; };
+		3FE88AA415B6104400972525 /* 1 dollar bill.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 dollar bill.jpeg"; sourceTree = "<group>"; };
+		3FE88AA615B6ECB600972525 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		3FE88AA715B6ECB600972525 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		3FE88AB115B6F8A300972525 /* 50 dollar bill.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50 dollar bill.jpeg"; sourceTree = "<group>"; };
+		3FE88ABD15B70FDC00972525 /* Tracks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tracks.h; path = ../Tracks.h; sourceTree = "<group>"; };
+		3FE88ABE15B70FDC00972525 /* Tracks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tracks.m; path = ../Tracks.m; sourceTree = "<group>"; };
+		3FE88AC215B712F300972525 /* stack of money.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stack of money.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBDCF0E15B73B27009E7605 /* AVFoundation.framework in Frameworks */,
 				3FE8897215B5AE3500972525 /* UIKit.framework in Frameworks */,
 				3FE8897415B5AE3500972525 /* Foundation.framework in Frameworks */,
 				3FE8897615B5AE3500972525 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +106,7 @@
 		3FE8896215B5AE3500972525 = {
 			isa = PBXGroup;
 			children = (
+				3FBDCF0D15B73B27009E7605 /* AVFoundation.framework */,
 				3FE8897715B5AE3500972525 /* DISHIN' */,
 				3FE8899515B5AE3500972525 /* DISHIN'Tests */,
 				3FE8897015B5AE3500972525 /* Frameworks */,
@@ -114,8 +140,20 @@
 				3FE8898015B5AE3500972525 /* AppDelegate.h */,
 				3FE8898115B5AE3500972525 /* AppDelegate.m */,
 				3FE8898315B5AE3500972525 /* MainStoryboard.storyboard */,
+				3FE88ABD15B70FDC00972525 /* Tracks.h */,
+				3FE88ABE15B70FDC00972525 /* Tracks.m */,
+				3FE88AA615B6ECB600972525 /* Game.h */,
+				3FE88AA715B6ECB600972525 /* Game.m */,
 				3FE8898615B5AE3500972525 /* ViewController.h */,
 				3FE8898715B5AE3500972525 /* ViewController.m */,
+				3FE88AA215B6103700972525 /* 100 dollar bill.jpeg */,
+				3FE88AB115B6F8A300972525 /* 50 dollar bill.jpeg */,
+				3FE88AA415B6104400972525 /* 1 dollar bill.jpeg */,
+				3FE88AC215B712F300972525 /* stack of money.jpeg */,
+				3FBDCF0415B733AF009E7605 /* No Hands.mp3 */,
+				3FBDCF0515B733AF009E7605 /* Fuck Bitches, Get Money.mp3 */,
+				3FBDCF0615B733AF009E7605 /* Make It Rain.mp3 */,
+				3FBDCF0715B733AF009E7605 /* I Get Money Quality.mp3 */,
 				3FE8897815B5AE3500972525 /* Supporting Files */,
 			);
 			path = "DISHIN'";
@@ -223,6 +261,14 @@
 			files = (
 				3FE8897C15B5AE3500972525 /* InfoPlist.strings in Resources */,
 				3FE8898515B5AE3500972525 /* MainStoryboard.storyboard in Resources */,
+				3FE88AA315B6103700972525 /* 100 dollar bill.jpeg in Resources */,
+				3FE88AA515B6104400972525 /* 1 dollar bill.jpeg in Resources */,
+				3FE88AB215B6F8A300972525 /* 50 dollar bill.jpeg in Resources */,
+				3FE88AC315B712F300972525 /* stack of money.jpeg in Resources */,
+				3FBDCF0815B733AF009E7605 /* No Hands.mp3 in Resources */,
+				3FBDCF0915B733AF009E7605 /* Fuck Bitches, Get Money.mp3 in Resources */,
+				3FBDCF0A15B733AF009E7605 /* Make It Rain.mp3 in Resources */,
+				3FBDCF0B15B733AF009E7605 /* I Get Money Quality.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +306,8 @@
 				3FE8897E15B5AE3500972525 /* main.m in Sources */,
 				3FE8898215B5AE3500972525 /* AppDelegate.m in Sources */,
 				3FE8898815B5AE3500972525 /* ViewController.m in Sources */,
+				3FE88AA815B6ECB600972525 /* Game.m in Sources */,
+				3FE88ABF15B70FDC00972525 /* Tracks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +477,7 @@
 				3FE889A215B5AE3500972525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE889A315B5AE3500972525 /* Build configuration list for PBXNativeTarget "DISHIN'Tests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +486,7 @@
 				3FE889A515B5AE3500972525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

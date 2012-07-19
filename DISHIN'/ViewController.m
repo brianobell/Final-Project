@@ -13,6 +13,7 @@
 @end
 
 @implementation ViewController
+@synthesize titleimage;
 
 - (void)viewDidLoad
 {
@@ -22,6 +23,7 @@
 
 - (void)viewDidUnload
 {
+    [self setTitleimage:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -31,4 +33,19 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)playgame:(id)sender {
+    [self performSegueWithIdentifier: @"titletogame" sender: self];
+    
+}
+
+- (IBAction)choosecash:(id)sender {
+}
+
+- (IBAction)choosemusic:(id)sender 
+{
+    [self performSegueWithIdentifier: @"titletotracks" sender: self];
+}
+
+- (IBAction)viewacheivements:(id)sender {
+}
 @end
